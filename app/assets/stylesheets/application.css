@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, strong, p, th, td, table, ul, li, div, .p1, .link1, .new{
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+h1{
+  margin: 25px 50px 23px 35px;
+  font-size: 26px;
+}
+
+p{
+  margin: 0 60px 35px 60px;
+  font-size: 13px;
+}
+
+.error{
+  margin: 0 30px 30px 30px;
+  font-size: 13px;
+  color: red;
+
+}
+
+
+
+
+
+div{
+  margin: 35px 60px 35px 65px;
+  color: green;
+  font-size: 13px;
+}
+
+.p1{
+  margin: 0 60px 33px 65px;
+  font-size: 13px;
+}
+
+.link1{
+  margin: 13px 60px 0 33px;
+  font-size: 13px;
+}
+
+
+table{
+  margin: 15px 30px 15px 30px;
+  font-size: 13px;
+}
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th{
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.new{
+  margin: 0 30px 20px 30px;
+  font-size: 20px;
+}
+
+h5{
+  margin: 0 30px 0 30px;
+  font-size: 12px
+
+}
+
+.box1{
+  margin: 0 30px 10px 30px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
